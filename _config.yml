@@ -1,6 +1,56 @@
 theme: jekyll-theme-midnight
 
 title: Fireculs Github
+name: Fireculs Github
 description: Mainly a placeholder
 
 show_downloads: true
+avatar: https://avatars3.githubusercontent.com/u/34950371?s=400&v=4
+
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: firecul
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: firecul
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: user/firecul42
+  googleplus: firecul
+
+url: https://firecul.github.io
+
+permalink: /:title/
+
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
